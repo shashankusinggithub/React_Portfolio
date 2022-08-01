@@ -1,4 +1,6 @@
 .contact-form {
+  display: flex;
+
   width: 100%;
   margin-top: 20px;
 
@@ -114,3 +116,13 @@
     }
   }
 }
+
+
+@media screen and (max-width: 1000px) {
+  .map-wrap, .info-map {
+   display: none;
+ }
+
+
+}
+

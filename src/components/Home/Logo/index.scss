@@ -1,8 +1,8 @@
 .logo-container {
-  z-index: 0;
-  width: 400px;
-  height: 609px;
-  opacity: 0;
+  // z-index: 0;
+  width: 600px;
+  height: 400px;
+  
   position: absolute;
   top: 0;
   right: 15%;
@@ -10,28 +10,43 @@
   left: auto;
   margin: auto;
 
-  svg {
-    width: 100%;
-    height: auto;
-    bottom: 0;
-    transform: rotateZ(30deg) !important;
-  }
+  
 
   .solid-logo {
     position: absolute;
-    top: auto;
-    right: auto;
-    bottom: auto;
-    left: 0;
-    margin: auto;
-    width: 100%;
-    opacity: 0.3;
+ 
+    width: 90%;
+    opacity: 0.5;
     transform: rotateZ(30deg) !important;
-    z-index: 1;
   }
 }
 
-.svg-container {
-  stroke: #ffd700;
-  stroke-width: 30;
+
+@media screen and (max-width: 1000px) {
+  .container{
+    overflow:-moz-hidden-unscrollable;
+  }
+  .logo-container {
+    // display: none;
+    // z-index: 0;
+    width: 700px;
+    height: 1500px;
+    overflow:-moz-hidden-unscrollable;
+  
+    
+    position: absolute;
+    top: 0;
+    right: 0;
+    // left:10%;
+  .solid-logo {
+    
+    // display: none;
+    // margin-right:30%;
+    width:100%;
+    // display: none;
+    opacity: 0.2;
+  }
+ 
+ 
+  }
 }

@@ -11,11 +11,18 @@ const Home = () => {
 
   const nameArray = ['h', 'a', 's', 'h', 'a', 'n', 'k']
   const jobArray = [
-    'w',
-    'e',
-    'b',
-    ' ',
-    'd',
+    'F',
+    'u',
+    'l',
+    'l',
+    '-',
+    'S',    
+    't',
+    'a',
+    'c',
+    'k',
+  ]
+   const Developer=[ 'D',
     'e',
     'v',
     'e',
@@ -24,7 +31,7 @@ const Home = () => {
     'p',
     'e',
     'r',
-    '.',
+    
   ]
 
   useEffect(() => {
@@ -58,13 +65,28 @@ const Home = () => {
               strArray={jobArray}
               idx={22}
             />
+            <br />
+            <AnimatedLetters
+              letterClass={letterClass}
+              strArray={Developer}
+              idx={22}
+            />
           </h1>
-          <h2>Front End Developer / JavaScript Expert / Youtuber</h2>
+          <h2>Front End Developer / JavaScript Expert / Python Developer</h2>
+
+          
           <Link to="/contact" className="flat-button">
             CONTACT ME
           </Link>
+          <Link to="/Resume/Shashank's Resume.pdf" className="flat-button" target="_blank" download>
+            DOWNLOAD RESUME
+          </Link>
+          {/* <a href="https://drive.google.com/file/d/1Udwr6GF3XzewJ7HX5CNl6VN1LSoPzifg/view" className="flat-button">
+            DOWNLOAD RESUME
+          </a> */}
         </div>
-        <Logo />
+        <div className='logobig'><Logo /></div>
+            
       </div>
 
       <Loader type="pacman" />
