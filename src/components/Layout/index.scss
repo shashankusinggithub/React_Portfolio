@@ -70,7 +70,7 @@
     left: 15%;
     margin-top: 100px;
     transform: translateY(-50%);
-    width: 130rem !important;
+    width: 80% !important;
     // vertical-align: ;
     display: table-cell;
     max-height: 100%;
@@ -100,7 +100,7 @@
     left: 15%;
     top: 50%;
     transform: translateY(-50%);
-    width: 50rem;
+    width: 25%;
     vertical-align: middle;
     display: table-cell;
     max-height: 100%;
@@ -236,7 +236,7 @@
   display: none;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width:700px) {
   .navcontrol {
     display: none;
   }
@@ -250,10 +250,11 @@
     .text-zone {
 
       position: absolute;
-      left: 20px;
+      left: 80px;
+      
       top: 40%;
       // transform: translateY(-50%);
-      width: 90%;
+      width: 80%;
       vertical-align: middle;
       display: table-cell;
 
@@ -283,10 +284,10 @@
       margin-top:60PX ;
 
       position: absolute;
-      left: 20px;
+      left: 80px;
       // top: 40%;
       transform: translateY(-50%);
-      width: 85% !important;
+      width: 80% !important;
       padding: 10px;
       vertical-align: middle;
       display: table-cell;

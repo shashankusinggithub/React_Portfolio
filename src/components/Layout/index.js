@@ -17,7 +17,9 @@ const Layout = () => {
 
 
 
-        <div className={nav && 'navcontrol'} onClick={(event) => {
+        <div 
+        // className={nav && 'navcontrol'}  // unhide for click to show/hide side bar
+        onClick={(event) => {
             setNav(false)
             event.stopPropagation()
           }}>

@@ -72,7 +72,7 @@ useEffect(() => {
               <h3  className='collapsible' >Scratch Clone</h3>
               <div className='content'>
               Designed an Interactive Scratch Clone where user can use it to learn coding with visualization,<br />
-              <b>Link -</b> <a href='https://scratchclone.netlify.app/'>https://scratchclone.netlify.app/   </a> <span> (Desktop Friendly)</span>
+              <b>Link -</b> <a href='https://scratchclone.netlify.app/'>https://scratchclone.netlify.app/   </a> <span> (Desktop)</span>
               <dl >
                 <h5>Technologies Used -</h5>
                 <dt className="dt">Front End Technologies</dt>

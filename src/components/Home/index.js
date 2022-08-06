@@ -72,7 +72,7 @@ const Home = () => {
               idx={22}
             />
           </h1>
-          <h2>Front End Developer / JavaScript Expert / Python Developer</h2>
+          <h2>Hack-On 2022 Winner / JavaScript Expert / Python Developer</h2>
 
           
           <Link to="/contact" className="flat-button">
