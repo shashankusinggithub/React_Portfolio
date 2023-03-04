@@ -1,0 +1,225 @@
+.home-page {
+
+  // .home-page:before {
+  //   content: "";
+  //   position: absolute;
+  //   // width: 200%;
+  //   // height: 200%;
+  //   // top: -50%;
+  //   // left: -50%;
+  //   z-index: -1;
+  //   background: url("../../assets/images/logo-s.png") ;
+  //   // background: url(background.png) 0 0 repeat;
+  //   transform: rotate(30deg);
+  
+  // }
+  .text-zone {
+    overflow:-moz-hidden-unscrollable;
+    position: absolute;
+    left: 10%;
+    top: 50%;
+    transform: translateY(-50%);
+    max-height: 90%;
+    overflow-y: hidden;
+  }
+
+  h1 {
+    color: #fff;
+    font-size: 56px;
+    line-height: 53px;
+    margin: 0;
+    font-family: 'Coolvetica';
+    font-weight: 400;
+
+    &:before {
+      
+      font-family: 'La Belle Aurore', cursive;
+      color: #ffd700;
+      font-size: 18px;
+      position: absolute;
+      margin-top: -40px;
+      left: -15px;
+      opacity: 0.6;
+    }
+
+    &:after {
+      
+      font-family: 'La Belle Aurore', cursive;
+      color: #ffd700;
+      font-size: 18px;
+      position: absolute;
+      margin-top: 18px;
+      margin-left: 20px;
+      animation: fadeIn 1s 1.7s backwards;
+      opacity: 0.6;
+    }
+
+    img {
+      margin-left: 20px;
+      opacity: 0;
+      width: 32px;
+      height: auto;
+      animation: rotateIn 1s linear both;
+      animation-delay: 1.4s;
+    }
+  }
+
+  h2 {
+    width: 90%;
+    color: #8d8d8d;
+    margin-top: 20px;
+    font-weight: 400;
+    font-size: 11px;
+    font-family: sans-serif;
+    letter-spacing: 3px;
+    animation: fadeIn 1s 1.8s backwards;
+  }
+
+  .flat-button {
+    margin-right: 5%;
+    color: #ffd700;
+    font-size: 13px;
+    font-weight: 400;
+    letter-spacing: 4px;
+    font-family: sans-serif;
+    text-decoration: none;
+    padding: 10px 18px;
+    border: 1px solid #ffd700;
+    margin-top: 25px;
+    float: left;
+    animation: fadeInAnimation 1s 1.8s backwards;
+    white-space: nowrap;
+    z-index: 90;
+
+    &:hover {
+      background: #ffd700;
+      color: #333;
+    }
+  }
+}
+
+
+@media only screen and (max-width: 1000px) {
+
+  .container{
+    width: 100%;
+    overflow:hidden; 
+    
+  }
+  .home-page {
+    width: 100% !important;
+    
+    overflow:hidden;
+    .text-zone {
+      overflow:hidden;
+      right: 10px;
+      position: absolute;
+      left: 15%;
+      
+      
+      // top: 50%;
+      transform: translateY(-50%);
+      
+      // max-height: 100%;
+    }}
+}
+
+.logobig{
+  // display: none;
+  position: sticky;
+  height: 100%;
+  width: 100%;
+  overflow-y: hidden;
+  overflow-x: hidden;
+  z-index:-1;
+}
+
+
+
+
+// .container{
+//   overflow: hidden;
+//   overflow-y: hidden;
+// }
+
+// .home-page {
+//   .text-zone {
+//     position: absolute;
+//     left: 15%;
+//     top: 50%;
+//     transform: translateY(-50%);
+//     width: 100%;
+//     max-height: 90%;
+//   }
+
+//   h1 {
+//     color: #fff;
+//     font-size: 80px;
+//     line-height:90px;
+//     margin: 0;
+//     font-family: 'Coolvetica';
+//     font-weight: 500;
+
+//     &:before {
+      
+//       font-family: 'La Belle Aurore', cursive;
+//       color: #ffd700;
+//       font-size: 18px;
+//       position: absolute;
+//       margin-top: -40px;
+//       left: -15px;
+//       opacity: 0.6;
+//     }
+
+//     &:after {
+      
+//       font-family: 'La Belle Aurore', cursive;
+//       color: #ffd700;
+//       font-size: 18px;
+//       position: absolute;
+//       margin-top: 18px;
+//       margin-left: 20px;
+//       animation: fadeIn 1s 1.7s backwards;
+//       opacity: 0.6;
+//     }
+
+//     img {
+//       margin-left: 40px;
+//       opacity: 0;
+//       width: 50px;
+//       height: auto;
+//       animation: rotateIn 1s linear both;
+//       animation-delay: 1.4s;
+//     }
+//   }
+
+//   h2 {
+//     color: #8d8d8d;
+//     margin-top: 20px;
+//     font-weight: 400;
+//     font-size: 11px;
+//     font-family: sans-serif;
+//     letter-spacing: 3px;
+//     animation: fadeIn 1s 1.8s backwards;
+//   }
+
+//   .flat-button {
+//     color: #ffd700;
+//     font-size: 13px;
+//     font-weight: 400;
+//     letter-spacing: 4px;
+//     font-family: sans-serif;
+//     text-decoration: none;
+//     padding: 10px 18px;
+//     border: 1px solid #ffd700;
+//     margin-top: 25px;
+//     float: left;
+//     animation: fadeInAnimation 1s 1.8s backwards;
+//     white-space: nowrap;
+
+//     &:hover {
+//       background: #ffd700;
+//       color: #333;
+//     }
+//   }
+// }

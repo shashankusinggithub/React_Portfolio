@@ -1,0 +1,54 @@
+
+.collapsible {
+  // background-color: rgb(51, 105, 185);
+  color: white;
+  cursor: pointer;
+  // padding: 18px 2px;
+  width: 90%;
+  border: none;
+  text-align: left;
+  // outline: none;
+  // font-size: 15px;
+}
+
+.collapsible:hover {
+  background-color: rgb(74, 122, 184);
+}
+.movies-app{
+}
+
+.content {
+  margin-top: 15px;
+  width:90%;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-out;
+  // background-color: #6a69ce;
+}
+
+.container.project-page .text-zone{
+ text-align: left;
+}
+
+
+@media screen and (max-width: 700px){
+.container.project-page .text-zone h5 {
+    font-size:20px;
+    margin-left: 3%
+   
+}
+
+.movies-app a {
+  text-align: left !important;
+}
+
+ .container.project-page .text-zone p .movies-app li{
+  width: 100%;
+  margin-left: -20px;
+  padding: 0;
+}
+.container.project-page .text-zone dd{
+  margin-left: 10px;
+}
+
+}
