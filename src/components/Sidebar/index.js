@@ -5,13 +5,16 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import linkedin from '../../assets/images/linkedin.png'
 import github from '../../assets/images/github.png'
 import Instagram from '../../assets/images/Instagram-Icon.png'
-import { faHome, faUser, faEnvelope, faFileContract } from '@fortawesome/free-solid-svg-icons'
+import {
+  faHome,
+  faUser,
+  faEnvelope,
+  faFileContract,
+} from '@fortawesome/free-solid-svg-icons'
 import { Link, NavLink } from 'react-router-dom'
 import { useState } from 'react'
 
-
 const Sidebar = () => {
-  
   return (
     <div className="nav-bar">
       <Link className="logo" to="/">
@@ -33,28 +36,44 @@ const Sidebar = () => {
           <FontAwesomeIcon icon={faEnvelope} color="#4d4d4e" />
         </NavLink>
 
-        <NavLink activeclassname="active" className="project-link" to="/projects">
+        <NavLink
+          activeclassname="active"
+          className="project-link"
+          to="/projects"
+        >
           <FontAwesomeIcon icon={faFileContract} color="#4d4d4e" />
         </NavLink>
       </nav>
 
-      <ul id='links'>
-            <li>
-                <a target="_blank" rel="noreferer" href='https://www.linkedin.com/in/shashank-c-8651971b6/'>
-                    <img src={linkedin} alt=" linkedin" ></img>
-                </a>
-            </li>
-            <li>
-                <a target="_blank" rel="noreferer" href='https://github.com/shashankusinggithub'>
-                    <img src={github} alt=" github" ></img>
-                </a>
-            </li>
-      <li>
-                <a target="_blank" rel="noreferer" href='https://www.instagram.com/shashank_using_insta/'>
-                    <img src={Instagram} alt=" instagram" ></img>
-                </a>
-            </li>
-        </ul>
+      <ul id="links">
+        <li>
+          <a
+            target="_blank"
+            rel="noreferer"
+            href="https://www.linkedin.com/in/shashank1997/"
+          >
+            <img src={linkedin} alt=" linkedin"></img>
+          </a>
+        </li>
+        <li>
+          <a
+            target="_blank"
+            rel="noreferer"
+            href="https://github.com/shashankusinggithub"
+          >
+            <img src={github} alt=" github"></img>
+          </a>
+        </li>
+        <li>
+          <a
+            target="_blank"
+            rel="noreferer"
+            href="https://www.instagram.com/shashank_using_insta/"
+          >
+            <img src={Instagram} alt=" instagram"></img>
+          </a>
+        </li>
+      </ul>
     </div>
   )
 }

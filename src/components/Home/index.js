@@ -10,29 +10,8 @@ const Home = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
 
   const nameArray = ['h', 'a', 's', 'h', 'a', 'n', 'k']
-  const jobArray = [
-    'F',
-    'u',
-    'l',
-    'l',
-    '-',
-    'S',    
-    't',
-    'a',
-    'c',
-    'k',
-  ]
-   const Developer=[ 'D',
-    'e',
-    'v',
-    'e',
-    'l',
-    'o',
-    'p',
-    'e',
-    'r',
-    
-  ]
+  const jobArray = ['F', 'u', 'l', 'l', '-', 'S', 't', 'a', 'c', 'k']
+  const Developer = ['D', 'e', 'v', 'e', 'l', 'o', 'p', 'e', 'r']
 
   useEffect(() => {
     return setTimeout(() => {
@@ -74,19 +53,24 @@ const Home = () => {
           </h1>
           <h2>Hack-On 2022 Winner / Software Developer / Python Developer</h2>
 
-          
           <Link to="/contact" className="flat-button">
             CONTACT ME
           </Link>
-          <Link to="/Resume/Shashank's Resume.pdf" className="flat-button" target="_blank" download>
+          <Link
+            to="/Resume/Shashank's Resume.pdf"
+            className="flat-button"
+            target="_blank"
+            download
+          >
             DOWNLOAD RESUME
           </Link>
           {/* <a href="https://drive.google.com/file/d/1Udwr6GF3XzewJ7HX5CNl6VN1LSoPzifg/view" className="flat-button">
             DOWNLOAD RESUME
           </a> */}
         </div>
-        <div className='logobig'><Logo /></div>
-            
+        <div className="logobig">
+          <Logo />
+        </div>
       </div>
 
       <Loader type="pacman" />

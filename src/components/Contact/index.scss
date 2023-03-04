@@ -117,16 +117,13 @@
   }
 }
 
-
 @media screen and (max-width: 750px) {
-  .map-wrap, .info-map {
-   display: none;
+  .map-wrap,
+  .info-map {
+    display: none;
+  }
 
- }
-
- ul {
-  width: 90%;
- }
-
+  ul {
+    width: 90%;
+  }
 }
-

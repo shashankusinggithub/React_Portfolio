@@ -1,5 +1,4 @@
 .home-page {
-
   // .home-page:before {
   //   content: "";
   //   position: absolute;
@@ -11,10 +10,10 @@
   //   background: url("../../assets/images/logo-s.png") ;
   //   // background: url(background.png) 0 0 repeat;
   //   transform: rotate(30deg);
-  
+
   // }
   .text-zone {
-    overflow:-moz-hidden-unscrollable;
+    overflow: -moz-hidden-unscrollable;
     position: absolute;
     left: 10%;
     top: 50%;
@@ -32,7 +31,6 @@
     font-weight: 400;
 
     &:before {
-      
       font-family: 'La Belle Aurore', cursive;
       color: #ffd700;
       font-size: 18px;
@@ -43,7 +41,6 @@
     }
 
     &:after {
-      
       font-family: 'La Belle Aurore', cursive;
       color: #ffd700;
       font-size: 18px;
@@ -98,44 +95,38 @@
   }
 }
 
-
 @media only screen and (max-width: 1000px) {
-
-  .container{
+  .container {
     width: 100%;
-    overflow:hidden; 
-    
+    overflow: hidden;
   }
   .home-page {
     width: 100% !important;
-    
-    overflow:hidden;
+
+    overflow: hidden;
     .text-zone {
-      overflow:hidden;
+      overflow: hidden;
       right: 10px;
       position: absolute;
       left: 15%;
-      
-      
+
       // top: 50%;
       transform: translateY(-50%);
-      
+
       // max-height: 100%;
-    }}
+    }
+  }
 }
 
-.logobig{
+.logobig {
   // display: none;
   position: sticky;
   height: 100%;
   width: 100%;
   overflow-y: hidden;
   overflow-x: hidden;
-  z-index:-1;
+  z-index: -1;
 }
-
-
-
 
 // .container{
 //   overflow: hidden;
@@ -161,7 +152,7 @@
 //     font-weight: 500;
 
 //     &:before {
-      
+
 //       font-family: 'La Belle Aurore', cursive;
 //       color: #ffd700;
 //       font-size: 18px;
@@ -172,7 +163,7 @@
 //     }
 
 //     &:after {
-      
+
 //       font-family: 'La Belle Aurore', cursive;
 //       color: #ffd700;
 //       font-size: 18px;

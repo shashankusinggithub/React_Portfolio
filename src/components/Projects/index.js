@@ -16,24 +16,21 @@ const Projects = () => {
   }, [])
 
   useEffect(() => {
-    let coll = document.getElementsByClassName("collapsible");
-    let i;
+    let coll = document.getElementsByClassName('collapsible')
+    let i
 
     for (i = 0; i < coll.length; i++) {
-      coll[i].addEventListener("click", function () {
-        this.classList.toggle("active");
-        var content = this.nextElementSibling;
+      coll[i].addEventListener('click', function () {
+        this.classList.toggle('active')
+        var content = this.nextElementSibling
         if (content.style.maxHeight) {
-          content.style.maxHeight = null;
+          content.style.maxHeight = null
         } else {
-          content.style.maxHeight = content.scrollHeight + "px";
+          content.style.maxHeight = content.scrollHeight + 'px'
         }
-      });
+      })
     }
-
   }, [])
-
-
 
   // function clickHandel(){
 
@@ -55,70 +52,119 @@ const Projects = () => {
   return (
     <>
       <div className="container project-page">
-        <div className="text-zone" >
+        <div className="text-zone">
           <h1>
             <AnimatedLetters
               letterClass={letterClass}
-              strArray={['P', 'r', 'o', '', 'j', 'e', 'c', 't', 's',
-              ]}
+              strArray={['P', 'r', 'o', '', 'j', 'e', 'c', 't', 's']}
               idx={15}
             />
           </h1>
 
-          <div >
-
-            <p className='indent'>
-              <h3 className='collapsible' >GPS Locations</h3>
-              <div className='content'>
-                Designed a Full Stack web application to store the GPS data of the devices and provide insights using visualisation of data. <br />
-                <b>Link -</b> <a href='https://github.com/shashankusinggithub/GPS_Location'>GITHUB Repository   </a> <span> (Desktop)</span>
-                <dl >
+          <div>
+            <p className="indent">
+              <h3 className="collapsible">Find Video Game</h3>
+              <div className="content">
+                Designed a Front End web application to search video games using
+                an external API. User can search, sort and filter the list of
+                video games in the application. <br />
+                <b>Link -</b>{' '}
+                <a href="https://findvideogame.netlify.app/">
+                  Find Video Game{' '}
+                </a>{' '}
+                <span> (Desktop)</span>
+                <dl>
                   <h5>Technologies Used -</h5>
-                  <dt><b>Front End Technologies</b></dt>
+                  <dt>
+                    <b>Front End Technologies</b>
+                  </dt>
+                  <dd> React.js | Redux | HTML | CSS | JavaScript</dd>
+                </dl>
+              </div>
+
+              <h3 className="collapsible">GPS Locations</h3>
+              <div className="content">
+                Designed a Full Stack web application to store the GPS data of
+                the devices and provide insights using visualisation of data.{' '}
+                <br />
+                <b>Link -</b>{' '}
+                <a href="https://github.com/shashankusinggithub/GPS_Location">
+                  GITHUB Repository{' '}
+                </a>{' '}
+                <dl>
+                  <h5>Technologies Used -</h5>
+                  <dt>
+                    <b>Front End Technologies</b>
+                  </dt>
                   <dd> React.js | HTML | CSS | JavaScript</dd>
-                  <dt><b>Back End Technologies</b></dt>
+                  <dt>
+                    <b>Back End Technologies</b>
+                  </dt>
                   <dd> Node.js | MySQL | Express.js | Cypress </dd>
                 </dl>
               </div>
 
-              <h3 className='collapsible' >Scratch Clone</h3>
-              <div className='content'>
-                Designed an Interactive Scratch Clone where user can use it to learn coding with visualization,<br />
-                <b>Link -</b> <a href='https://scratchclone.netlify.app/'>Scratch Clone   </a> <span> (Desktop)</span>
-                <dl >
+              <h3 className="collapsible">Scratch Clone</h3>
+              <div className="content">
+                Designed an Interactive Scratch Clone where user can use it to
+                learn coding with visualization,
+                <br />
+                <b>Link -</b>{' '}
+                <a href="https://scratchclone.netlify.app/">Scratch Clone </a>{' '}
+                <span> (Desktop)</span>
+                <dl>
                   <h5>Technologies Used -</h5>
                   <dt className="dt">Front End Technologies</dt>
                   <dd> React.js | JavaScript | HTML | CSS </dd>
                 </dl>
               </div>
-              <h3 className='collapsible' >Movies App</h3>
-              <div className='content'>
+              <h3 className="collapsible">Movies App</h3>
+              <div className="content">
                 Designed and deployed a Full stack App.
-                <ul className='movies-app'>
-
-                  <li>Which help users to save playlist and share it using the link provided or can keep it private.</li>
+                <ul className="movies-app">
+                  <li>
+                    Which help users to save playlist and share it using the
+                    link provided or can keep it private.
+                  </li>
                   <li>Using OMDB api to fletch the data.</li>
-                  <li>User authentication using JSONwebtoken and encrypting passwords using Bcrypt.</li>
+                  <li>
+                    User authentication using JSONwebtoken and encrypting
+                    passwords using Bcrypt.
+                  </li>
                 </ul>
-
-                <b>Link -</b><a href='https://intense-headland-96312.herokuapp.com/'> Movies App </a>
-                <dl >
+                <b>Link -</b>
+                <a href="https://my-known-movie-app.netlify.app/login">
+                  {' '}
+                  Movies App{' '}
+                </a>
+                <dl>
                   <h5>Technologies Used</h5>
 
-                  <dt><b>Front End Technologies</b></dt>
+                  <dt>
+                    <b>Front End Technologies</b>
+                  </dt>
                   <dd> React.js | HTML | CSS | JavaScript</dd>
-                  <dt><b>Back End Technologies</b></dt>
+                  <dt>
+                    <b>Back End Technologies</b>
+                  </dt>
                   <dd> Node.js | MongoDB | Express.js </dd>
                 </dl>
               </div>
-              <h3 className='collapsible' >Monitoring And Controlling of Industrial Parameters</h3>
-              <div className='content'>
-                <li> Designed an IoT project using Python on Linux based OS (Raspbian) with
-                  Ubidots Server.</li><li>Remotely monitor diﬀerent parameters such as gas leakage, over heating
-                    of machinery, increase in room temperature and light sensor, and to take
-                    appropriate action automatically or manually using UBIDOTS server
-                    remotely.</li>
-
+              <h3 className="collapsible">
+                Monitoring And Controlling of Industrial Parameters
+              </h3>
+              <div className="content">
+                <li>
+                  {' '}
+                  Designed an IoT project using Python on Linux based OS
+                  (Raspbian) with Ubidots Server.
+                </li>
+                <li>
+                  Remotely monitor diﬀerent parameters such as gas leakage, over
+                  heating of machinery, increase in room temperature and light
+                  sensor, and to take appropriate action automatically or
+                  manually using UBIDOTS server remotely.
+                </li>
 
                 <dl>
                   <h5>Technologies Used -</h5>
@@ -126,18 +172,9 @@ const Projects = () => {
                   <dd> Python | TCP/IP | IoT | Linux </dd>
                 </dl>
               </div>
-
             </p>
-
           </div>
-
-
-
-
-
-
         </div>
-
       </div>
       <Loader type="pacman" />
     </>
@@ -145,4 +182,3 @@ const Projects = () => {
 }
 
 export default Projects
-

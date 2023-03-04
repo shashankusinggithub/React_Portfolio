@@ -7,8 +7,6 @@ const Logo = () => {
   const outlineLogoRef = useRef()
   const solidLogoRef = useRef()
 
-
-
   return (
     <div className="logo-container" ref={bgRef}>
       <img
@@ -17,10 +15,6 @@ const Logo = () => {
         src={LogoS}
         alt="JavaScript,  Developer"
       />
-
-      
-       
-      
     </div>
   )
 }
