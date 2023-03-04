@@ -133,7 +133,7 @@ const Projects = () => {
                   </li>
                 </ul>
                 <b>Link -</b>
-                <a href="https://my-known-movie-app.netlify.app/login">
+                <a href="https://my-known-movie-app.netlify.app">
                   {' '}
                   Movies App{' '}
                 </a>
