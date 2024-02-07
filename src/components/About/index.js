@@ -55,12 +55,18 @@ const About = () => {
             />
           </h1>
           <p>
-            Working on ML, AI and MERN Stack development and Embedded systems.
-            Very passionate about learning new Technologies. Seeking employment
-            where I can add value to the team and organisation. In my free time
-            I spend most of the time solving data structures and algorithms
-            problems on competitive coding platforms and working on various
-            technologies.
+            Highly skilled and results-driven full-stack developer with a proven
+            track record in web application development. Experienced in
+            front-end and back-end technologies, delivering high-quality
+            solutions. Seeking a challenging role in the technology industry to
+            utilize expertise in driving innovation and achieving business
+            objectives. Recognized for spearheading the successful development
+            of a complex e-commerce platform, integrating front-end and back-end
+            systems. Proficient in HTML, CSS, JavaScript, and frameworks like
+            React and Node.js. Committed to continuous learning and staying
+            updated with emerging technologies to deliver cutting-edge solutions
+            that optimize user experiences. Ready to contribute to a
+            collaborative and dynamic team environment.
             <dl>
               <h3>Skills</h3>
               <dt>
